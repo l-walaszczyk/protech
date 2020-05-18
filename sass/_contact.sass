@@ -1,0 +1,41 @@
+// SECTION CONTACT
+.contact
+ display: flex
+ flex-wrap: wrap
+ justify-content: space-between
+ line-height: 1.8rem
+ 
+.contact-header
+ flex-basis: 100%
+ 
+.contact-address
+ flex-basis: 100%
+ margin-bottom: 2vh
+ text-align: left
+ 
+.contact-map
+ flex-basis: 100%
+ height: 35vh
+ 
+iframe
+ position: relative
+ border: none
+ 
+// SECTION CONTACT
+@media (min-width: 640px)
+ .contact-address
+  flex-basis: 48%
+  &:nth-child(3)
+   text-align: right
+  
+@media (min-width: 1024px)
+ .contact-address
+  flex-basis: 50%
+  &:nth-child(3)
+   text-align: right
+  
+@media (min-width: 1440px)
+ .contact-address
+  flex-basis: 35%
+  &:nth-child(3)
+   text-align: right

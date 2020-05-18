@@ -1,0 +1,38 @@
+// HEADER
+header
+ position: fixed
+ top: 0
+ left: 0
+ height: $height
+ width: 100%
+ z-index: 1
+ display: flex
+ justify-content: space-between
+ background-color: white
+ overflow: hidden
+ 
+.logo img
+ height: $height
+ color: black
+ &:hover
+  cursor: pointer
+ 
+nav
+ display: flex
+ height: 100%
+ width: 70%
+ align-items: stretch
+ justify-content: stretch
+ button
+  flex-basis: 100%
+  flex-grow: 1
+  font-size: 1.1rem
+  box-shadow: none
+  border: none
+  background-color: white
+  &:hover
+   text-decoration: underline
+
+@media (min-width: 768px)
+ nav
+  width: 40%

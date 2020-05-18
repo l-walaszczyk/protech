@@ -1,0 +1,61 @@
+// ALL SECTIONS EXCEPT START
+ 
+.about, .services, .contact
+ margin: 10vh 5vw
+ font-size: 1rem
+ text-align: justify
+ 
+.about
+ div
+  margin-bottom: 5vh
+ img
+  float: left
+  max-width: 35vw
+  margin-right: 1vw
+  margin-top: 0.5rem
+  margin-bottom: -0.25rem
+ div:nth-of-type(even) img
+  float: right
+  margin-right: 0vw
+  margin-left: 2vw
+ 
+@media (min-width: 360px)
+ .about, .services, .contact
+  margin: 10vh 3vw
+ 
+ .about img
+  max-width: 39vw
+  margin-right: 2vw
+ 
+ div:nth-of-type(even) img
+  margin-right: 0vw
+  margin-left: 2vw
+ 
+@media (min-width: 768px)
+ .about, .services, .contact
+  margin: 10vh 10vw
+ 
+ .about img
+  max-width: 30vw
+  margin-right: 2vw
+ 
+@media (min-width: 1024px)
+ .about, .services, .contact
+  margin: 10vh 20vw
+ 
+ .about img
+  max-width: 20vw
+  margin-right: 2vw
+ 
+@media (min-width: 1280px)
+ .about img
+  max-width: 15vw
+  margin-right: 2vw
+
+@media (min-width: 1920px)
+ .about, .services, .contact
+  margin: 10vh 20vw
+ 
+ .about img
+  max-width: 10vw
+  margin-right: 2vw

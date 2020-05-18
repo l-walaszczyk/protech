@@ -1,0 +1,66 @@
+*
+ margin: 0
+ padding: 0
+ box-sizing: border-box
+
+.clearfix::after
+ content: ""
+ display: block
+ clear: both
+ 
+// COMMON PARAMETERS
+html
+ font-size: 14px
+ height: $height
+
+body
+ font-family: "Lato", sans-serif
+ font-size: 1rem
+ line-height: 1.5em
+ 
+h1
+ margin: 5vh 0 5vh 0
+ font-family: "Alfa Slab One", cursive
+ font-weight: normal
+ font-size: 1.4rem
+ text-align: center
+ 
+h2
+ margin-bottom: 1vh
+ font-weight: bold
+ font-size: 1.2rem
+ 
+li
+ margin: 0 1.5rem 1rem
+ line-height: 1.7em
+ &:last-child
+  margin-bottom: 0
+ 
+a
+ display: block
+ text-decoration: none
+ color: black
+ 
+button
+ display: block
+ text-decoration: none
+ color: black
+ &:hover
+  cursor: pointer
+ 
+a:hover span
+ text-decoration: underline
+ 
+// COMMON PARAMETERS
+@media (min-width: 360px)
+ html
+  font-size: 14px
+
+
+@media (min-width: 768px)
+ html
+  font-size: 18px
+ 
+@media (min-width: 1024px)
+ html
+  font-size: 20px

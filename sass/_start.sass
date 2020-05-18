@@ -1,0 +1,67 @@
+// SECTION START
+.start
+ position: relative
+ height: 100vh - $height
+ width: 100%
+ margin-top: $height
+ overflow: hidden
+ button
+  position: absolute
+  top: 80%
+  left: 50%
+  height: 2rem
+  width: 8rem
+  transform: translate(-50%, 0)
+  background-color: rgba(255, 255, 255, 0.7)
+  box-shadow: none
+  border: none
+  border-radius: 1rem
+  font-size: 1rem
+  &:hover
+   background-color: rgba(255, 255, 255, 0.8)
+ 
+.start-bg
+ position: absolute
+ top: -2%
+ left: -2%
+ height: 104%
+ width: 104%
+ background-origin: padding-box
+ background-image: url("../img/section-start.jpg")
+ background-size: cover
+ background-position: center
+ filter: blur($blur)
+ -webkit-filter: blur($blur)
+ -moz-filter: blur($blur)
+ -o-filter: blur($blur)
+ -ms-filter: blur($blur)
+ 
+.start-txt
+ position: absolute
+ top: 50%
+ left: 0
+ transform: translate(0, -50%)
+ width: 100%
+ padding: 0vh 2vw
+ background-color: rgba(255, 255, 255, 0.6)
+ text-align: center
+ h1
+  margin: 3vh 0
+  font-size: 1.8rem
+ p
+  margin: 3vh 0
+  font-weight: 500
+  font-size: 1.2rem
+ 
+// SECTION START
+@media (min-width: 360px)
+ .start-txt
+  padding: 0vh 2vw
+ 
+@media (min-width: 768px)
+ .start-txt
+  padding: 0vh 10vw
+ 
+@media (min-width: 1024px)
+ .start-txt
+  padding: 0vh 20vw
