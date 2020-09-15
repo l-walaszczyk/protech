@@ -2,7 +2,7 @@ var iframe = document.querySelector("iframe");
 var imgLogo = document.querySelector("div.logo img");
 var menuItems = document.querySelectorAll("button");
 
-var offset = 46;
+var offset = 54;
 iframe.width = iframe.parentElement.offsetWidth;
 iframe.height = iframe.parentElement.offsetHeight + offset;
 iframe.style.top = "-" + offset + "px";
